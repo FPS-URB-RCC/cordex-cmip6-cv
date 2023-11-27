@@ -1,5 +1,13 @@
 {
     "domain_id": {
+        "PAR-3": {
+            "domain": "Paris",
+            "domain_id": "PAR-3"
+        },
+        "PAR-3i": {
+            "domain": "Paris",
+            "domain_id": "PAR-3i"
+        },
         "SAM-50": {
             "domain": "South America",
             "domain_id": "SAM-50"
