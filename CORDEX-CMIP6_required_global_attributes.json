@@ -1,6 +1,7 @@
 {
     "required_global_attributes": [
         "Conventions",
+        "activity",
         "activity_id",
         "contact",
         "creation_date",
@@ -13,8 +14,6 @@
         "driving_variant_label",
         "experiment",
         "experiment_id",
-        "fps",
-        "fps_id",
         "frequency",
         "further_info_url",
         "institution",
@@ -28,6 +27,7 @@
         "source_id",
         "source_type",
         "version_realization",
+        "version_realization_info",
         "tracking_id",
         "variable_id",
         "license"

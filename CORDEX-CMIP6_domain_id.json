@@ -1,12 +1,20 @@
 {
     "domain_id": {
-        "Paris-3": {
+        "PARIS-3": {
             "domain": "Paris",
-            "domain_id": "PAR-3"
+            "domain_id": "PARIS-3"
         },
-        "Paris-3i": {
+        "PARIS-3i": {
             "domain": "Paris",
-            "domain_id": "PAR-3i"
+            "domain_id": "PARIS-3i"
+        },
+        "PARIS-12": {
+            "domain": "Paris",
+            "domain_id": "PARIS-12"
+        },
+        "PARIS-12i": {
+            "domain": "Paris",
+            "domain_id": "PARIS-12i"
         },
         "SAM-50": {
             "domain": "South America",
