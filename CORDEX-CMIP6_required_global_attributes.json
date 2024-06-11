@@ -1,5 +1,6 @@
 {
     "required_global_attributes": [
+        "activity",
         "activity_id",
         "contact",
         "Conventions",
@@ -11,6 +12,8 @@
         "driving_institution_id",
         "driving_source_id",
         "driving_variant_label",
+        "experiment",
+        "experiment_id",
         "frequency",
         "grid",
         "institution",
@@ -24,6 +27,7 @@
         "source_type",
         "tracking_id",
         "variable_id",
-        "version_realization"
+        "version_realization",
+        "version_realization_info"
     ]
 }

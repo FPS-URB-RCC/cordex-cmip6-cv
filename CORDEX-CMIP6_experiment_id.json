@@ -1,0 +1,7 @@
+{
+    "experiment_id": {
+        "STAGE-0": "Test evaluation experiment including heavy precipitation and heat wave events over Paris",
+        "STAGE-1": "Evaluation experiment nested into ERA5",
+        "STAGE-2": "Scenario experiment driven by CMIP6"
+    }
+}

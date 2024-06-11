@@ -1,6 +1,7 @@
 {
   "activity_id": {
     "DD": "Dynamical downscaling",
-    "ESD": "Empirical-statistical downscaling"
-   }
+    "ESD": "Empirical-statistical downscaling",
+    "FPS-URB-RCC": "Flagship Pilot Study on the Urban environment and Regional Climate Change"
+  }
 }
