@@ -69,7 +69,7 @@
 	    "commment": ""
 	},
 	"PARIS-3": {
-            "grid_mapping_name": "nested within lambert_conformal_conic",
+            "grid_mapping_name": "nested_within_lambert_conformal_conic",
             "longitude_of_central_meridian": 2.33371,
             "latitude_of_projection_origin": 48.89134,
             "source_grid_mapping": "EURO-12",
@@ -85,7 +85,7 @@
 	    "commment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'EURO-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. No grid points were removed from each border of the domain from the original grid size"
         },
 	"PARIS-3i": {
-            "grid_mapping_name": "nested within lambert_conformal_conic",
+            "grid_mapping_name": "nested_within_lambert_conformal_conic",
             "longitude_of_central_meridian": 2.33371,
             "latitude_of_projection_origin": 48.89134,
             "source_grid_mapping": "EURO-12",
