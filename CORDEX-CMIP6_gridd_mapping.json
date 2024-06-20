@@ -12,7 +12,8 @@
             "resolution_dx": 12000.,
             "resolution_dy": 12000.,
 	    "points_removed_WE_borders": 0,
-	    "points_removed_SN_borders": 0
+	    "points_removed_SN_borders": 0,
+	    "commment": ""
 	},
         "EUR-12i": {
             "grid_mapping_name": "lambert_conformal_conic",
@@ -26,7 +27,8 @@
             "resolution_dx": 12000.,
             "resolution_dy": 12000.,
 	    "points_removed_WE_borders": 10,
-	    "points_removed_SN_borders": 10
+	    "points_removed_SN_borders": 10,
+	    "commment": ""
 	},
 	"PARIS-3": {
             "grid_mapping_name": "nested within lambert_conformal_conic",
@@ -34,9 +36,11 @@
             "i_grid_parent": 154,
             "j_grid_parent": 192,
             "resolution_dx": 3000.,
-            "resolution_dy": 3000.
+            "resolution_dy": 3000.,
+	    "parent_grid_ratio": 4,
 	    "points_removed_WE_borders": 0,
-	    "points_removed_SN_borders": 0
+	    "points_removed_SN_borders": 0,
+	    "commment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'EURO-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. No grid points were removed from each border of the domain from the original grid size"
         },
 	"PARIS-3i": {
             "grid_mapping_name": "nested within lambert_conformal_conic",
@@ -45,8 +49,10 @@
             "j_grid_parent": 192,
             "resolution_dx": 3000.,
             "resolution_dy": 3000.
+	    "parent_grid_ratio": 4,
 	    "points_removed_WE_borders": 10,
-	    "points_removed_SN_borders": 10
+	    "points_removed_SN_borders": 10,
+	    "commment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'EURO-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. 10 grid points were removed from each border of the domain from the original grid size"
       }
     }
 }
