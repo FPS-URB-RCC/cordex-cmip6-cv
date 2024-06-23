@@ -89,11 +89,15 @@
 	    "native_resolution": "3. km",
             "coordinates": ["x", "y"],
             "Nvertices": 4,
+	    "nesting": "in-line",
+	    "couling": "one-way",
 	    "parent_grid_ratio": 4,
+	    "parent_temporal_ratio": 4,
+	    "nesting_frequency": 60,
 	    "points_removed_WE_borders": 0,
 	    "points_removed_SN_borders": 0,
             "grid": "Nested within parent Lambert Conformal conic with 12 km grid spacing at grid ratio of 1:4 with initial parent i,j grid point at 154,192",
-	    "comment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'PARIS-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. No grid points were removed from each border of the domain from the original grid size"
+	    "comment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'PARIS-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. one-way in-line nested domain receiving data every 60 s from parent domain. No grid points were removed from each border of the domain from the original grid size"
         },
 	"PARIS-3i": {
             "grid_mapping_name": "nested_within_lambert_conformal_conic",
@@ -108,11 +112,15 @@
 	    "native_resolution": "3. km",
             "coordinates": ["x", "y"],
             "Nvertices": 4,
+	    "nesting": "in-line",
+	    "couling": "one-way",
 	    "parent_grid_ratio": 4,
+	    "parent_temporal_ratio": 4,
+	    "nesting_frequency": 60,
 	    "points_removed_WE_borders": 10,
 	    "points_removed_SN_borders": 10,
             "grid": "Nested within parent Lambert Conformal conic with 12 km grid spacing at grid ratio of 1:4 with initial parent i,j grid point at 154,192 removing 10 grid points from the original final domain",
-	    "comment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'PARIS-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. 10 grid points were removed from each border of the domain from the original grid size"
+	    "comment": "Nested domain at higher resolution from a parent domain at lambert_conformal_conic projection called 'PARIS-12'. Domain starts at a given pair of i,j grid points from the parent domain with its specific horizontal resolution refinnig parents domain coordinates. one-way in-line nested domain receiving data every 60 s from parent domain. 10 grid points were removed from each border of the domain from the original grid size"
       }
     }
 }
